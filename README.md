@@ -22,38 +22,6 @@ This is a simple and secure **Online Voting System** built with **PHP**, **MySQL
 
 ---
 
-## 📁 Folder Structure
-
-online-voting-system/
-│
-├── index.php                  # Landing page (login/register)
-├── register.php               # Voter registration page
-├── login.php                  # Voter login page
-├── dashboard.php              # Voter dashboard (vote, view status)
-├── vote.php                   # Voting page (choose candidate)
-├── result.php                 # Show election results
-├── admin/
-│   ├── login.php              # Admin login
-│   ├── dashboard.php          # Admin dashboard
-│   ├── add_candidate.php      # Add new candidates
-│   ├── view_votes.php         # View voting details
-│   ├── manage_voters.php      # View/Delete voters
-│   └── logout.php             # Admin logout
-├── includes/
-│   ├── db.php                 # Database connection file
-│   ├── auth.php               # Session validation (voter)
-│   ├── admin_auth.php         # Session validation (admin)
-├── assets/
-│   ├── css/
-│   │   └── style.css          # Custom styles
-│   └── images/
-│       └── (logo, candidates etc.)
-├── logout.php                 # Voter logout
-└── database.sql               # SQL file to create database & tables
-
-
----
-
 ## ⚙️ Setup Instructions
 
 1. ✅ **Install XAMPP** or similar PHP server.
@@ -132,4 +100,5 @@ File: admin/export_votes.php
 💬 Project By
 🎓 College Mini Project
 💡 Feel free to customize and expand features!
+
 
