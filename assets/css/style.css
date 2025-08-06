@@ -1,0 +1,13 @@
+/* Basic custom style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.btn {
+    border-radius: 8px;
+}
